@@ -24,7 +24,7 @@ public class Main
         try
         {
             String url = "jdbc:mysql://localhost:3306/test.db";
-            con = DriverManager.getConnection(url,"root","Allalu87");
+            con = DriverManager.getConnection(url,"root","password");
             System.out.println("Ok, we have a connection.");
         }
         catch(Exception e)
